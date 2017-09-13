@@ -19,7 +19,7 @@ x = ohe.fit_transform(x).toarray()
 
 # Splitting
 from sklearn.model_selection import train_test_split
-# Separate trining dataset and testing dataset. 2 out of 10 dataset -> for testing
+# Separate trining dataset and testing dataset. 20 out of 100 dataset -> for testing
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 0)
 
 # Feature scaling
