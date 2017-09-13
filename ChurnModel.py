@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Import dataset
-dataset = pd.read_csv('Churn_Modelling.csv')
+dataset = pd.read_csv('Dataset.csv')
 x = dataset.iloc[:, 3:-1].values
 y = dataset.iloc[:, -1].values
 
